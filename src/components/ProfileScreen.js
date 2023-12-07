@@ -57,10 +57,9 @@ function ProfileScreen() {
                   style={{
                     backgroundColor: "navy",
                     color: "white",
-                    padding: " 2px",
+                    padding: "2px",
                     borderRadius: "50%",
-                    marginLeft: "-50px",
-                    marginTop: "40px",
+                    fontSize: "3.2vw",
                   }}
                 />
               </i>
@@ -69,28 +68,28 @@ function ProfileScreen() {
                   style={{
                     backgroundColor: "lightgreen",
                     color: "white",
-                    padding: "3px",
+                    padding: "2px",
                     borderRadius: "50%",
-                    marginLeft: "-90px",
-                    marginTop: "40px",
+                    fontSize: "3.2vw",
                   }}
                 />
               </i>
             </div>
-                  </div>
-        </div>
 
             <div className="name-bottom">
-              <div style={{ marginRight: "6%" }}>
+              <div>
                 <h2>{followers}</h2>
                 <h3>Followers</h3>
               </div>
-              <div style={{ marginLeft: "6%" }}>
+              <div>
                 <h2>{following}</h2>
                 <h3>Following</h3>
               </div>
             </div>
-          
+          </div>
+        </div>
+
+
         <div className="bottom">
           {/* <h2>{position}</h2> */}
           <h2 style={{ marginTop: "20px" }}>{position}</h2>
