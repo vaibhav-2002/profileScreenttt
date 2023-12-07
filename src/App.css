@@ -22,7 +22,7 @@ header {
 .logo {
   padding-right: 0.5em;
   margin-right: 1em;
-  border-right: 2px solid #f5aa42;
+  border-right: 2px solid yellow;
 }
 
 .title {
@@ -36,18 +36,18 @@ header {
   padding: 5px;
   color: black;
   border-radius: 5px;
-  background-color: #f5aa42;
+  background-color: rgb(237, 213, 5);
 }
 
 .bg img {
-  height: 20vw;
+  height: 50vw;
   width: 100%;
 }
 
 .about {
   padding: 10px 5vw;
   padding-bottom: 100px;
-  border-bottom: 1px solid rgb(171, 169, 169);
+  border-bottom: 1px solid #dcdcdc;
 }
 
 .top {
@@ -62,34 +62,18 @@ header {
   transform: translateY(-30%);
   object-fit: cover;
 }
-/* Default styling for larger screens */
-.name-top {
-  display: flex;
-  align-items: center;
-}
 
-/* Media query for smaller screens */
-@media screen and (max-width: 600px) {
-  .name-top {
-    flex-direction: column; /* Stack elements vertically on smaller screens */
-  }
-
-  i {
-    margin-left: 0; /* Reset the left margin for both icons */
-    margin-top: 10px; /* Add some space between the icons on smaller screens */
-  }
-}
 .name {
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 10%;
+  gap: 0.5rem;
 }
 
 .name-top {
   display: flex;
   gap: 5%;
-  /* align-items: center; */
+  align-items: center;
   /* width: 100%; */
 }
 
@@ -98,7 +82,7 @@ header {
 } */
 
 .name-top h3 {
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 
 .name-bottom {
@@ -151,14 +135,9 @@ header {
   font-size: 0.7rem;
 }
 
-.position {
-  margin-top: 20px;
-}
-
 .post-count {
   position: relative;
 }
-
 .demo {
   position: absolute;
   top: -82px;
