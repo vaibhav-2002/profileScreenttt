@@ -79,11 +79,11 @@ function ProfileScreen() {
             </div>
 
             <div className="name-bottom">
-              <div style={{ marginTop: "10px" }}>
+              <div style={{ marginRight: "6%" }}>
                 <h2>{followers}</h2>
                 <h3>Followers</h3>
               </div>
-              <div style={{ marginLeft: "-60px", marginTop: "10px" }}>
+              <div style={{ marginLeft: "6%" }}>
                 <h2>{following}</h2>
                 <h3>Following</h3>
               </div>
